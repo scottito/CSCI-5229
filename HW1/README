@@ -1,0 +1,20 @@
+hw1: Lorenz Attractor
+
+Nicholas Scott Hardman Jr
+CSCI5229 Summer 2025
+
+Display the lorenz attractor in three dimensions. 
+
+Key bindings
+  1      Modify s
+  2      Modify b
+  3      Modify r
+  +/-    Increase/decrease s, b, or r
+  arrows Change view angle
+  0      Reset view angle
+  ESC    Exit
+
+I started from ex6 code. I was inspired by ex8 to add some idle activity. I implemented the lorenz attractor code from lorenz.c provided on Canvas and added additional points. 
+I modified display() to use GL_LINE_STRIP for plotting. I tweaked initial parameters and added a w to plotting to fit more complex plots closer to the origin.
+
+Time to complete: about 5 hours
