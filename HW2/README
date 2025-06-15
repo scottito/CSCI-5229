@@ -1,0 +1,31 @@
+hw2: 3D Scene
+
+Nicholas Scott Hardman Jr
+CSCI5229 Summer 2025
+
+View a scene in three dimensions. I chose to make my scene satellites orbiting "Earth".
+
+Key bindings
+  m          Toggle between orthogonal, perspective, and first-person
+  +/-        Increase/decrease field of view
+  PgDn/PgUp  Zoom in and out
+  arrows     Change view angle
+  1          View the whole scene
+  2          View only satellite object
+  3          View only Earth object
+  0          Reset view angle
+  ESC        Exit
+
+  (in orthogonal or perspective)
+  a          toggles axis
+  (in first-person)
+  w          move camera forward
+  a          move camera left
+  s          move camera back
+  d          move camera right
+
+I started from ex9 code. I referenced ex8's SolidPlane for tips drawing the satellite at unit scale. I got some help from ChatGPT responses for getting vectors for first-person movement.
+
+My satellite design is based on a simple image I found at https://www.vecteezy.com/vector-art/4999212-satellite-isolated-on-the-white-background-vector-illustration
+
+Time to complete: about 9 hours
