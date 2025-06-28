@@ -391,9 +391,6 @@ void display()
    // First-person
    else {
       getCamDir();
-      // double lookX = 2*dim*Sin(th)*Cos(ph);
-      // double lookY = 2*dim        *Sin(ph);
-      // double lookZ = -2*dim*Cos(th)*Cos(ph);
       gluLookAt(camX,camY,camZ , lookX,lookY,lookZ , 0,Cos(ph),0);
    }
    

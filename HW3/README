@@ -1,0 +1,40 @@
+Nicholas Scott Hardman Jr
+CSCI 5229 Summer 2025
+
+Homework 3 - Incorporate lighting and textures into a scene.
+I stuck with my scene of satellites orbiting "Earth".
+
+Key bindings
+  Space      Stop/Start light source motion
+  m/M        Cycles scene being viewed
+  e/E        decrease/increase emitted light
+  n/N        Decrease/increase shininess
+  []         Lower/rise light
+  x          Toggle axes
+  arrows     Change view angle
+  PgDn/PgUp  Zoom in and out
+  0          Reset view angle
+  ESC        Exit
+
+      (First-person mode)
+  w          move camera forward
+  a          move camera left
+  s          move camera back
+  d          move camera right
+ 
+    (Projection Mode)
+  a/A        decrease/increase ambient light
+  d/D        decrease/increase diffuse light
+  s/S        decrease/increase specular light
+
+I started from ex15 code because it includes examples of both lighting and textures. I kept my satellite object model from homework 2 and defined normals to light it correctly. 
+For satellite normals I referenced ex13, specifically cylinders and spheres. I used ChatGPT a bit to help me set up glTexCoords.
+
+This homework was hard.
+
+I am not quite satisfied with the lighting on the satellite dish because the outside of the dish should cast a shadow on the inside. However, since we have not covered shadows yet
+I will wait to make this adjustment.
+
+Both original images from Google images and the BMPs I turned them into are in the img/ directory.
+
+Time to complete: about 15 hours
