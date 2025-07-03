@@ -1,0 +1,30 @@
+Nicholas Scott Hardman Jr\
+CSCI 5229 Summer 2025
+
+Final Project
+
+Key bindings\
+ *  arrows     Change view angle
+ *  Space      Stop/Start light source motion
+ *  h          Cycle between different shaders
+ *  m          Cycles scene being viewed
+ *  PgDn/PgUp  Zoom in and out
+ *  x          Toggle axes
+ *  []         Lower/rise light
+ *  0          Reset view angle
+ *  p          Toggle display parameters
+ *  f          Enter first-person mode
+ *  ESC        Exit
+ First-person mode
+ *  w          move camera forward
+ *  a          move camera left
+ *  s          move camera back
+ *  d          move camera right
+
+I wanted to build off of what I produced in the homeworks, but I recognized that just doing more with satellites was not going to be interesting enough for this project. Thus, I decided to tackle a FAR more complicated shape and make a cool spaceship.
+
+For cartoon shading and loading shader functions I drew from ex25. For Gouraud shading I referenced ex37 and ClaudeSonnet. Shading was easier than I thought at first... and then it caused some problems. I am really proud of how I learned to navigate shaders better and go beyond the basic. I relied on help from the internet and AI to get my initial shaders to load textures so I could show Spike in the cockpit. However, after that I took it upon myself to write the shader that lights up the jet from the engine using a second light source. This was really challenging but rewarding as I feel it really pulls the whole project together.
+
+Another thing I am proud of, even though it is small, is the canopy on the cockpit. We talked a little bit in class about making things transparent but actually getting it to work, and then putting shaders on top of it, required some finesse and I really like how mine turned out.
+
+Time to complete: about 40 hours
